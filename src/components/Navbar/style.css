@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#navbarArea{
+    width: 100%;
+    font-size: 140%;
+}
+
+#navbar{
+    width: 40%;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#navAbout{
+    width: 20%;
+    padding: 1vh 1vw;
+    text-align: center;
+}
+
+#navProjects {
+    width: 20%;
+    padding: 1vh 1vw;
+    text-align: center;
+}
+
+#navContact {
+    width: 20%;
+    padding: 1vh 1vw;
+    text-align: center;
+}
+
+#navResume {
+    width: 20%;
+    padding: 1vh 1vw;
+    text-align: center;
+}
