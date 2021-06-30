@@ -28,7 +28,7 @@
 
 .btn a {
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     padding: 4vh 2vw;
 }
 

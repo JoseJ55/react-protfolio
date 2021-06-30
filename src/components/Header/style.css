@@ -32,7 +32,7 @@
 
 #webTitle{
     position: relative;
-    color: white;
+    color: var(--text-color);
     font-size: 400%;
     opacity: 1;
 }
