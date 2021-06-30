@@ -1,41 +1,41 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
-}
+} */
 
-#navbarArea{
-    width: 100%;
-    font-size: 140%;
-}
+/* :root{
+    --main-color: #333;
+    --hover-color: #222;
+} */
 
-#navbar{
-    width: 40%;
-    margin: auto;
-    list-style: none;
+#nav{
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background-color: var(--main-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
 }
 
-#navAbout{
-    width: 20%;
-    padding: 1vh 1vw;
-    text-align: center;
+.btn{
+    padding: 4vh 0;
+    font-size: 140%;
+    border: none;
+    background-color: var(--main-color);
 }
 
-#navProjects {
-    width: 20%;
-    padding: 1vh 1vw;
-    text-align: center;
+.btn a {
+    text-decoration: none;
+    color: white;
+    padding: 4vh 2vw;
 }
 
-#navContact {
-    width: 20%;
-    padding: 1vh 1vw;
-    text-align: center;
+.btn:hover {
+    background-color: var(--hover-color);
 }
 
-#navResume {
-    width: 20%;
-    padding: 1vh 1vw;
-    text-align: center;
+#about{
+    font-size: 140%;
 }
