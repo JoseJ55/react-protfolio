@@ -1,0 +1,22 @@
+.projectTitle {
+    width: 90%;
+    margin: auto;
+    padding: 3vh 0;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 200%;
+    border-bottom: .3rem #444 solid;
+}
+
+.projectInfo {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 2vh;
+}
+
+.projectText {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
