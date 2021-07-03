@@ -16,7 +16,7 @@ function Home() {
                 <About />
                 <Projects />
                 <Contact />
-                {/* <Resume /> */}
+                <Resume />
             </div>
             <div className="homeNavbar">
                 <Navbar />
