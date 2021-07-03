@@ -1,7 +1,7 @@
 #resume{
     width: 80%;
     margin: auto;
-    background-color: #999;
+    margin-bottom: 2vh;
 }
 
 #resumeTitle{
@@ -14,6 +14,13 @@
 }
 
 #resumeArea{
-    width: 70%;
+    width: 60%;
     margin: auto;
+    background-color: #999;
+    padding: 2vh 3vw;
+    border: .3rem #444 solid;
+}
+
+#resumeArea p{
+    font-size: 150%;
 }
