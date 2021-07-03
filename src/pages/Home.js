@@ -14,8 +14,8 @@ function Home() {
             <div className="homeBody">
                 <Header />
                 <About />
-                {/* <Projects /> */}
-                {/* <Contact /> */}
+                <Projects />
+                <Contact />
                 {/* <Resume /> */}
             </div>
             <div className="homeNavbar">
