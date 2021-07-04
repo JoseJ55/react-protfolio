@@ -1,0 +1,11 @@
+.code {
+    width: 56%;
+    margin: auto;
+    background-color: #999;
+    margin-top: 2vh;
+    padding: 2% 2%;
+    height: 30vh;
+    border: .3rem #444 solid;
+    overflow: auto;
+}
+

@@ -20,16 +20,23 @@
 }
 
 .btn{
-    padding: 4vh 0;
+    padding: 2vh 0;
     font-size: 140%;
     border: none;
     background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
 
 .btn a {
     text-decoration: none;
     color: var(--text-color);
-    padding: 4vh 2vw;
+    padding: 1vh 2vw;
 }
 
 .btn:hover {

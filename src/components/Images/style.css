@@ -5,4 +5,36 @@
     border: .3rem red solid;
     width: 59%;
     margin-left: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.btnChange{
+    width: 100%;
+    padding: 0 1vw;
+}
+
+.change{
+    width: 10%;
+    opacity: .5;
+    padding: 1vh 0;
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+}
+
+.change:hover {
+    cursor: pointer;
+}
+
+.change:active{
+    background-color: #999;
+}
+
+.prev{
+    float: left;
+}
+
+.next {
+    float: right;
 }
