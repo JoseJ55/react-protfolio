@@ -1,22 +1,43 @@
 import React, { useState } from "react";
 import "./style.css";
 
+import sun from "./../../assets/Images/sunset.jpg";
+
 const projectImages = [
-    "./../../assets/Images/sunset.jpg", 
-    "./../../assets/Images/sunset.jpg",
-    "./../../assets/Images/sunset.jpg"
+    sun,
+    sun,
+    sun,
 ]
 
 function Images() { // add things to make a slide show of images
     const [image, setImage] = useState(projectImages);
-    const [currentImage, setCurrentImage] = useState(image[0])
+    const [currentImage, setCurrentImage] = useState(sun)
+    console.log(image)
+    console.log(sun)
+    console.log(currentImage)
+    const [prevImage, setPrevImage] = useState();
+    const [nextImage, setNextImage] = useState();
+
+    const backImage = {backgroundImage: `url(${sun})`}
+
+    const changeNext = () => {
+        if(nextImage){
+            console.log("next")
+        }
+    }
+
+    const changePrev = () => {
+        if(prevImage){
+            console.log("Prev")
+        }
+    }
 
     return (
         <>
-            <div className="images">
+            <div className="images" style={backImage}>
                 <div className="btnChange">
-                    <button className="prev change">Prev</button>
-                    <button className="next change">Next</button>
+                    <button onClick={changePrev} className="prev change">Prev</button>
+                    <button onClick={changeNext} className="next change">Next</button>
                 </div>
             </div>
         </>
