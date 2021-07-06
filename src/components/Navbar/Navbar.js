@@ -10,11 +10,11 @@ import resumeIcon from "./../../assets/Images/resume-icon48px.png";
 function Navbar() {
     return (
         <div id="nav">
-            <button className="btn"><img src={homeIcon} alt="https://icons8.com"/><a href="/">Home</a></button>
-            <button className="btn"><img src={personIcon} alt="https://icons8.com/icon/86363/person"/><a href="#about">About</a></button>
-            <button className="btn"><img src={websiteIcon} alt="https://icons8.com/icon/87836/resume-website"/><a href="#projects">Projects</a></button>
-            <button className="btn"><img src={contactIcon} alt="https://icons8.com/icon/7863/contact"/><a href="#contact">Contact</a></button>
-            <button className="btn"><img src={resumeIcon} alt="https://icons8.com"/><a href="#resume">Resume</a></button>
+            <button className="btn"><a href="/"><img src={homeIcon} alt="https://icons8.com"/>Home</a></button>
+            <button className="btn"><a href="/#about"><img src={personIcon} alt="https://icons8.com/icon/86363/person"/>About</a></button>
+            <button className="btn"><a href="/#projects"><img src={websiteIcon} alt="https://icons8.com/icon/87836/resume-website"/>Projects</a></button>
+            <button className="btn"><a href="/#contact"><img src={contactIcon} alt="https://icons8.com/icon/7863/contact"/>Contact</a></button>
+            <button className="btn"><a href="/#resume"><img src={resumeIcon} alt="https://icons8.com"/>Resume</a></button>
         </div>
     )
 }

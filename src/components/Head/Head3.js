@@ -5,22 +5,16 @@ import Description from "./../Description/Description";
 import Links from "./../Links/Links";
 import Images from "./../Images/Images";
 
-function Head({ id }) {
-    const projects = [
-        "one",
-        "two",
-        "third"
-    ]
-
+function Head() {
     return(
         <div>
-            <h2 className="projectTitle"> {projects[id - 1]} </h2>
+            <h2 className="projectTitle"> Project1</h2>
             <div className="projectInfo">
                 <div className="projectText">
-                    <Description id={id-1} />
-                    <Links id={id-1}/>
+                    <Description />
+                    <Links />
                 </div>
-                <Images id={id-1}/>
+                <Images />
             </div>
         </div>
     )

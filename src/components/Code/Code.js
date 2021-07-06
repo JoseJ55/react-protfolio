@@ -1,13 +1,19 @@
 import React from "react";
 import "./style.css";
 
-function Code() {
+function Code({id}) {
+    const projectCode = [
+        `var hello = "Hello World";
+        console.log(hello);`,
+        `onvvoetrob random`,
+        `onert more random`
+    ]
+
     return (
         <div className="code">
             <pre>
                 <code>
-                    var hello = "Hello World";
-                    console.log(hello)
+                    {projectCode[id-1]}
                 </code>
             </pre>
         </div>
